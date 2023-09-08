@@ -35,7 +35,7 @@ Tests are written with unittest and can be run like so::
 
 Where the working directory is the base directory of the repository.
 
-To run the coverage analysis with::
+The coverage analysis can be run with the following command::
 
   coverage run --source=src/ -m unittest discover -s tests
 
